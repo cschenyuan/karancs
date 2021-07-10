@@ -1,5 +1,7 @@
 package chenyuan.algorithmex.njb.sort;
 
+import java.util.Arrays;
+
 /**
  * @author chenyuan
  */
@@ -26,5 +28,7 @@ public class InsertSort {
 
     public static void main(String[] args) {
         int[] arr = {2, 9, 1, 3, 3, 4};
+        sort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }
